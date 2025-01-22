@@ -701,7 +701,7 @@ export const App = () => {
           <ButtonMobile
             onClick={() => {
               if (!LS.getItem(LSKeys.ClickFirstStep, false)) {
-                window.gtag("event", "3999_next_click_step1", {
+                window.gtag("event", "3999_next_click_step1_var7", {
                   variant_name: "ghk_3999_7",
                 });
 
@@ -743,7 +743,7 @@ export const App = () => {
                 email: email,
               }).then(() => {
                 if (!LS.getItem(LSKeys.ClickSecondStep, false)) {
-                  window.gtag("event", "3999_next_click_step2", {
+                  window.gtag("event", "3999_next_click_step2_var7", {
                     variant_name: "ghk_3999_7",
                   });
 
